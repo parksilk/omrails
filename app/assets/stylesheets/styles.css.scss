@@ -1,0 +1,29 @@
+// You can change the default fontwith the following:
+// $baseFontFamily: Oxygen;
+// @import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+// $btnPrimaryBackground: purple;
+
+
+@import 'bootstrap';
+
+body {
+  padding-top: 50px;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner {
+  @include box-shadow(none !important);
+  border: 0;
+}
+
+.footer {
+  margin-top: 40px;
+  color: $grayLight;
+  a {
+    color: gray;
+  }
+}
