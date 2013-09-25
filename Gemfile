@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.14'
 gem 'jquery-rails'
 gem 'devise'
+gem 'simple_form'
+
 gem 'bootstrap-sass', '~> 2.3.2.1'
 
 group :production do
